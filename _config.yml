@@ -1,0 +1,54 @@
+#page title
+page_title: ClarityFlow - Pattern Discovery for Better Living
+title: ClarityFlow
+
+# App Info
+app_icon: /assets/app-icon.png
+app_name: ClarityFlow
+app_price: Free with Premium options
+app_description: ClarityFlow helps you discover hidden patterns in your life by tracking symptoms, decisions, habits, and outcomes. AI-powered insights reveal connections you'd never notice, helping you optimize health, productivity, and happiness — all while keeping your data 100% private on your device.
+
+# Store Links
+appstore_link: https://apps.apple.com/us/app/clarityflow/idTBD
+playstore_link:
+
+# Information About Yourself
+your_name: ClarityFlow Team
+your_link: https://github.com/gautam-u
+your_city:
+email_address: gautam.ux@gmail.com
+facebook_username:
+instagram_username:
+twitter_username:
+github_username: gautam-u
+youtube_username:
+
+# Feature List
+features:
+  - title: Track Everything
+    description: Voice or text input for symptoms, meals, decisions, workouts, mood, and more. Fast, flexible tracking that fits your life.
+    fontawesome_icon_name: chart-line
+  - title: AI Pattern Discovery
+    description: Advanced AI finds hidden connections between your actions and outcomes that you'd never notice manually.
+    fontawesome_icon_name: brain
+  - title: Custom Metrics
+    description: Track anything that matters to you with custom categories and metrics tailored to your unique journey.
+    fontawesome_icon_name: sliders-h
+  - title: Beautiful Analytics
+    description: Visualize your patterns with intuitive charts, timelines, and insights that make data actionable.
+    fontawesome_icon_name: chart-bar
+  - title: 100% Private
+    description: All your data stays on your device. No cloud storage, no tracking, no third parties. Your data, your device, your control.
+    fontawesome_icon_name: lock
+  - title: Pro Features
+    description: Unlock advanced AI insights, unlimited history, and iCloud backup with flexible monthly or yearly memberships.
+    fontawesome_icon_name: star
+
+# GitHub Pages settings
+baseurl: "/clarityflow-website"
+url: "https://gautam-u.github.io"
+
+# Jekyll settings
+markdown: kramdown
+sass:
+  style: compressed

@@ -1,89 +1,126 @@
 ---
 layout: default
-title: ClarityFlow - Discover Patterns That Optimize Your Life
+title: ClarityFlow - Smart Health Tracker for iOS
 ---
 
-# ClarityFlow
+<div class="hero animate-fade-in-up">
+  <h1 class="text-gradient">ClarityFlow<br>AI Memory for Your Body & Life</h1>
+  <p class="mb-xl">Remember what works for YOUR body. ClarityFlow is the AI health tracker that finds patterns in your symptoms, treatments, and daily life—so you can finally understand your triggers.</p>
+  <p class="mb-2xl" style="color: var(--color-text-secondary); max-width: 680px; margin-left: auto; margin-right: auto;">Perfect for chronic illness, migraines, headaches, and health optimization. All your data stays encrypted on your device—100% private.</p>
 
-## Discover patterns that optimize your life
+  <div style="display: flex; justify-content: center; margin-bottom: var(--spacing-4xl);">
+    <a href="{{ site.appstore_link | default: '#' }}" class="btn btn-primary btn-large">
+      <i class="fab fa-apple"></i>
+      Download ClarityFlow on the App Store
+    </a>
+  </div>
+</div>
 
-Track symptoms, decisions, habits, and outcomes. AI finds connections you'd never notice.
+<div class="screenshots">
+  <div class="screenshot">
+    <img src="{{ '/assets/screenshots/03-onboarding.png' | relative_url }}" alt="ClarityFlow onboarding screen introducing smart pattern detection">
+  </div>
+  <div class="screenshot">
+    <img src="{{ '/assets/screenshots/04-main-page.png' | relative_url }}" alt="ClarityFlow home view with stats and top insights">
+  </div>
+  <div class="screenshot">
+    <img src="{{ '/assets/screenshots/05-entrries.png' | relative_url }}" alt="ClarityFlow entries view showing decision journeys with categories">
+  </div>
+  <div class="screenshot">
+    <img src="{{ '/assets/screenshots/06-patterns.png' | relative_url }}" alt="ClarityFlow pattern discovery showing symptom-treatment connections">
+  </div>
+  <div class="screenshot">
+    <img src="{{ '/assets/screenshots/07-quick-log.png' | relative_url }}" alt="ClarityFlow quick log with voice input and smart suggestions">
+  </div>
+  <div class="screenshot">
+    <img src="{{ '/assets/screenshots/08-ai-smart-splitting.png' | relative_url }}" alt="ClarityFlow AI automatically splitting entries into context, action, outcome">
+  </div>
+</div>
 
-**100% Private • On-Device AI • No Cloud Storage**
+<section class="features">
+  <div class="text-center mb-2xl">
+    <h2>Track Smarter with ClarityFlow</h2>
+    <p>AI-powered pattern detection, voice input, and privacy-first architecture help you understand what works for your body.</p>
+  </div>
 
-[Download on the App Store]({{ site.appstore_link }})
+  <div class="grid grid-3">
+    {% for feature in site.features %}
+    <div class="card feature-card animate-fade-in-up">
+      <div class="feature-icon">
+        <i class="fas fa-{{ feature.fontawesome_icon_name }}"></i>
+      </div>
+      <h3>{{ feature.title }}</h3>
+      <p>{{ feature.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 
----
+<section class="features">
+  <div class="text-center mb-2xl">
+    <h2>How It Works</h2>
+    <p>From voice input to pattern discovery—ClarityFlow makes health tracking effortless.</p>
+  </div>
 
-## Features
+  <div class="grid grid-2">
+    <div class="card feature-card animate-fade-in-up">
+      <div class="feature-icon">
+        <i class="fas fa-microphone-alt"></i>
+      </div>
+      <h3>Speak Naturally</h3>
+      <p>Just say "Headache, took ibuprofen, felt better" and ClarityFlow's NLP automatically creates a complete decision journey with context, action, and outcome.</p>
+    </div>
+    <div class="card feature-card animate-fade-in-up">
+      <div class="feature-icon">
+        <i class="fas fa-project-diagram"></i>
+      </div>
+      <h3>Discover Patterns</h3>
+      <p>AI analyzes your journeys to reveal what actually works. See which treatments help, which triggers to avoid, and make better health decisions.</p>
+    </div>
+    <div class="card feature-card animate-fade-in-up">
+      <div class="feature-icon">
+        <i class="fas fa-layer-group"></i>
+      </div>
+      <h3>Smart Categorization</h3>
+      <p>Entries automatically categorize into Health, Work, Lifestyle, Relationships, or Financial—keeping everything organized without extra effort.</p>
+    </div>
+    <div class="card feature-card animate-fade-in-up">
+      <div class="feature-icon">
+        <i class="fas fa-shield-alt"></i>
+      </div>
+      <h3>Complete Privacy</h3>
+      <p>All data encrypted on your device. No cloud uploads, no tracking, no third parties. Your health data is yours alone.</p>
+    </div>
+  </div>
+</section>
 
-### 🎯 Track Everything
-Voice or text input for symptoms, meals, decisions, workouts, mood, and more. Fast, flexible tracking that fits your life.
+<section class="features">
+  <div class="text-center mb-2xl">
+    <h2>Built for Apple Ecosystem</h2>
+    <p>Native iOS app with modern Liquid Glass design and accessibility excellence.</p>
+  </div>
 
-### 🧠 AI Pattern Discovery
-Advanced AI finds hidden connections between your actions and outcomes that you'd never notice manually.
-
-### 📊 Custom Metrics
-Track anything that matters to you with custom categories and metrics tailored to your unique journey.
-
-### 📈 Beautiful Analytics
-Visualize your patterns with intuitive charts, timelines, and insights that make data actionable.
-
-### 🔒 100% Private
-All your data stays on your device. No cloud storage, no tracking, no third parties. Your data, your device, your control.
-
-### ⭐ Pro Features
-Unlock advanced AI insights, unlimited history, and iCloud backup with flexible monthly or yearly memberships.
-
----
-
-## Pricing
-
-### Free Forever
-- Basic tracking
-- Voice input
-- Manual pattern discovery
-- Recent history (30 days)
-
-### ClarityFlow Pro
-**$4.99/month** or **$39.99/year** (save 50%)
-- **7-day free trial**
-- Advanced AI pattern discovery
-- Unlimited history
-- Custom metrics
-- Advanced analytics
-- iCloud backup & sync
-
----
-
-## Privacy First
-
-Your data never leaves your device. Period.
-
-- ✅ All data stored locally
-- ✅ On-device AI processing
-- ✅ No third-party tracking
-- ✅ Optional encrypted iCloud backup
-- ✅ No ads, ever
-
-[Read our Privacy Policy]({{ site.baseurl }}/privacy-policy/)
-
----
-
-## Support
-
-Questions or feedback?
-
-Email: [{{ site.email_address }}](mailto:{{ site.email_address }})
-
----
-
-## Links
-
-- [Terms of Service]({{ site.baseurl }}/terms/)
-- [Privacy Policy]({{ site.baseurl }}/privacy-policy/)
-- [Support](mailto:{{ site.email_address }})
-
----
-
-*ClarityFlow: Your data, your device, your insights.*
+  <div class="grid grid-3">
+    <div class="card feature-card animate-fade-in-up">
+      <div class="feature-icon">
+        <i class="fas fa-mobile-alt"></i>
+      </div>
+      <h3>iOS 18+ Optimized</h3>
+      <p>Built with latest SwiftUI and iOS features for smooth 60 FPS performance.</p>
+    </div>
+    <div class="card feature-card animate-fade-in-up">
+      <div class="feature-icon">
+        <i class="fas fa-universal-access"></i>
+      </div>
+      <h3>Accessibility First</h3>
+      <p>Full VoiceOver support, Dynamic Type, and WCAG 2.1 AA+ compliance built-in.</p>
+    </div>
+    <div class="card feature-card animate-fade-in-up">
+      <div class="feature-icon">
+        <i class="fas fa-moon"></i>
+      </div>
+      <h3>Dark Mode Ready</h3>
+      <p>Beautiful in both light and dark mode with translucent Liquid Glass materials.</p>
+    </div>
+  </div>
+</section>

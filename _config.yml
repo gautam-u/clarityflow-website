@@ -1,20 +1,20 @@
-#page title
-page_title: ClarityFlow - Smart Health Tracker for iOS
+# Page title
+page_title: ClarityFlow - Decision Tracker & Subscription Manager for iOS
 title: ClarityFlow
 
 # App Info
 app_icon: /assets/app-icon.png
 app_name: ClarityFlow
 app_price: Free
-app_description: ClarityFlow is the AI health tracker that finds patterns in your symptoms, treatments, and daily life—so you can finally understand your triggers. Perfect for chronic illness, migraines, headaches, and health optimization.
+app_description: Beat impulse buying, track every subscription, and make decisions you won't regret. ClarityFlow gives you a cooling-off timer, subscription tracker, and AI chat import — all private, on your device.
 
 # Store Links
-appstore_link: #
+appstore_link: "#"
 playstore_link:
 
 # Information About Yourself
-your_name: ClarityFlow Team
-your_link: https://github.com/gautam-u
+your_name: ClarityFlow
+your_link: https://gautam-u.github.io/clarityflow-website
 your_city:
 email_address:
 facebook_username:
@@ -25,24 +25,24 @@ youtube_username:
 
 # Feature List
 features:
-  - title: Smart Pattern Detection
-    description: Automatically discover connections between symptoms, treatments, and outcomes with AI-powered pattern analysis.
-    fontawesome_icon_name: brain
-  - title: Decision Journeys
-    description: Track complete health journeys from context to action to outcome, seeing what works and what doesn't.
-    fontawesome_icon_name: route
-  - title: Voice Input & NLP
-    description: Speak naturally and let AI split your input into context, action, and outcome entries automatically.
-    fontawesome_icon_name: microphone
-  - title: Intelligent Categorization
-    description: Journeys auto-categorize into Health, Work, Lifestyle, Relationships, or Financial for better organization.
-    fontawesome_icon_name: tags
-  - title: Privacy-First Architecture
-    description: All data stays encrypted on your device. No cloud uploads, no tracking, complete privacy.
+  - title: Cooling-Off Timer
+    description: Set a 24h, 48h, or custom waiting period before committing to a purchase. Most impulse buys lose their appeal after a short wait.
+    fontawesome_icon_name: hourglass-half
+  - title: Subscription Tracker
+    description: Track every recurring charge — monthly, annual, or weekly. See your total monthly burn and get reminded before renewals.
+    fontawesome_icon_name: sync-alt
+  - title: AI Chat Import
+    description: Paste any ChatGPT or Claude conversation and ClarityFlow extracts the decision title, cost, and billing interval automatically.
+    fontawesome_icon_name: robot
+  - title: Decision Library
+    description: Every decision you capture builds your personal library. Look back at what you bought, skipped, and how much you saved.
+    fontawesome_icon_name: book-open
+  - title: Today View
+    description: See what needs your attention — cooling-off periods ending, subscriptions renewing soon, and reminders you set.
+    fontawesome_icon_name: calendar-day
+  - title: Privacy First
+    description: All data stays on your device. No account required. No cloud uploads. Your decisions are yours alone.
     fontawesome_icon_name: lock
-  - title: Beautiful Liquid Glass UI
-    description: Modern iOS design with translucent materials, smooth animations, and accessibility built-in.
-    fontawesome_icon_name: sparkles
 
 # GitHub Pages settings
 baseurl: "/clarityflow-website"

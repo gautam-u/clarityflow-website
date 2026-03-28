@@ -61,7 +61,7 @@ title: ClarityFlow - Decision Tracker & Subscription Manager for iOS
         <i class="fas fa-comments"></i>
       </div>
       <h3>Import from AI Chat</h3>
-      <p>Already talked through a decision with ChatGPT or Claude? Paste the conversation and ClarityFlow extracts the key details — name, cost, and interval — automatically.</p>
+      <p>Already talked through a decision with AI chat or Claude? Paste the conversation and ClarityFlow extracts the key details — name, cost, and interval — automatically.</p>
     </div>
     <div class="card feature-card animate-fade-in-up">
       <div class="feature-icon">

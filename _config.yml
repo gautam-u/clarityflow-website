@@ -32,7 +32,7 @@ features:
     description: Track every recurring charge — monthly, annual, or weekly. See your total monthly burn and get reminded before renewals.
     fontawesome_icon_name: sync-alt
   - title: AI Chat Import
-    description: Paste any ChatGPT or Claude conversation and ClarityFlow extracts the decision title, cost, and billing interval automatically.
+    description: Paste any AI chat or Claude conversation and ClarityFlow extracts the decision title, cost, and billing interval automatically.
     fontawesome_icon_name: robot
   - title: Decision Library
     description: Every decision you capture builds your personal library. Look back at what you bought, skipped, and how much you saved.

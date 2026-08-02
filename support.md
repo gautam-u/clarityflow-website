@@ -15,8 +15,6 @@ Questions, problems, or ideas — this page covers the common ones and how to re
 
 **Email:** [gautam.ux@gmail.com](mailto:gautam.ux@gmail.com)
 
-We typically respond within 24–48 hours.
-
 When reporting a problem, including the following helps us resolve it faster:
 
 - What you were doing when it happened
@@ -67,7 +65,7 @@ iOS Settings → your name → Subscriptions → ClarityFlow → Cancel Subscrip
 
 ### I paid but Pro is not active
 
-Confirm you're signed into the same Apple ID used for the purchase, then open ClarityFlow → Settings → **Restore Purchases**. If that doesn't resolve it, email us and we'll sort it out.
+Confirm you're signed into the same Apple ID used for the purchase, then open ClarityFlow → Settings → Upgrade to Premium → **Restore Purchases**. If that doesn't resolve it, email us and we'll sort it out.
 
 ---
 

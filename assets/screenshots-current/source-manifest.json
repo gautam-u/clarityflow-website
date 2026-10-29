@@ -1,0 +1,23 @@
+{
+  "app": "ClarityFlow",
+  "version": "1.0.8",
+  "capturedOrVerified": "2026-10-28",
+  "note": "Screens from the latest tested 1.0.8 release candidate using demonstration or empty records. The current App Store version may differ.",
+  "files": [
+    {
+      "file": "01.png",
+      "source": "clarityflow-today.png",
+      "label": "Today"
+    },
+    {
+      "file": "02.png",
+      "source": "clarityflow-intelligence-2026-10-26/spending-note.png",
+      "label": "Review a spending note"
+    },
+    {
+      "file": "03.png",
+      "source": "clarityflow-intelligence-2026-10-26/evening-review.png",
+      "label": "Evening review"
+    }
+  ]
+}

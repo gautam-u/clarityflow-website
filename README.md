@@ -1,53 +1,11 @@
-# ClarityFlow Website
+# ClarityFlow website
 
-Marketing website and legal pages for ClarityFlow iOS app.
+Production: https://gautam-u.github.io/clarityflow-website/
 
-## Structure
+The homepage (`index.html`), support (`support/index.html`) and privacy (`privacy-policy/index.html`) pages are static HTML, served by GitHub Pages. Existing Terms of Service remain in `terms.md`, rendered through the shared Jekyll layouts. The deployment paths are unchanged.
 
-- `index.md` - Main landing page
-- `terms.md` - Terms of Service
-- `privacy-policy.md` - Privacy Policy
-- `_config.yml` - Jekyll configuration
-- `_layouts/` - Page layouts (will use GitHub Pages default theme)
-- `assets/` - Images and resources
+`assets/site-v2.css` provides the shared responsive design. `assets/gallery.js` switches local screenshots and captions only; it does not send analytics. Without JavaScript the first screenshot and full-size image link still work.
 
-## GitHub Pages Setup
+`assets/screenshots-current/source-manifest.json` records screenshot sources and app version. Release-candidate screens are labeled on the homepage; do not imply they are already in the public store version.
 
-1. Push this repository to GitHub
-2. Go to Settings → Pages
-3. Select branch: `main` (or `master`)
-4. Select folder: `/ (root)`
-5. Save
-
-The site will be available at: `https://gautam-u.github.io/clarityflow-website/`
-
-## Local Development
-
-```bash
-# Install dependencies
-bundle install
-
-# Run local server
-bundle exec jekyll serve
-
-# Visit http://localhost:4000/clarityflow-website/
-```
-
-## URLs for App
-
-After deploying to GitHub Pages, use these URLs in your app:
-
-- **Terms of Service:** `https://gautam-u.github.io/clarityflow-website/terms/`
-- **Privacy Policy:** `https://gautam-u.github.io/clarityflow-website/privacy-policy/`
-
-## Customization
-
-Edit `_config.yml` to update:
-- App name and description
-- Contact email
-- App Store link (when available)
-- Features list
-
-## License
-
-© 2025 ClarityFlow. All rights reserved.
+Preview static pages with an HTTP server mounted at `/clarityflow-website/`. GitHub Pages also builds the existing Jekyll terms page. Check desktop and phone layouts, screenshot controls and support/privacy/terms navigation before publishing. Preserve app-ads.txt where present.

@@ -25,24 +25,12 @@ youtube_username:
 
 # Feature List
 features:
-  - title: Cooling-Off Timer
-    description: Set a 24h, 48h, or custom waiting period before committing to a purchase. Most impulse buys lose their appeal after a short wait.
-    fontawesome_icon_name: hourglass-half
-  - title: Subscription Tracker
-    description: Track every recurring charge — monthly, annual, or weekly. See your total monthly burn and get reminded before renewals.
-    fontawesome_icon_name: sync-alt
-  - title: AI Chat Import
-    description: Paste any AI chat or Claude conversation and ClarityFlow extracts the decision title, cost, and billing interval automatically.
-    fontawesome_icon_name: robot
-  - title: Decision Library
-    description: Every decision you capture builds your personal library. Look back at what you bought, skipped, and how much you saved.
-    fontawesome_icon_name: book-open
-  - title: Today View
-    description: See what needs your attention — cooling-off periods ending, subscriptions renewing soon, and reminders you set.
-    fontawesome_icon_name: calendar-day
-  - title: Privacy First
-    description: All data stays on your device. No account required. No cloud uploads. Your decisions are yours alone.
-    fontawesome_icon_name: lock
+  - title: "Record everyday spending"
+    description: "Add a description, amount and date. Reuse recent entries and keep currency totals separate."
+  - title: "Know what is renewing"
+    description: "Track expected renewals and follow cancellation requests through to confirmation."
+  - title: "Pause, then decide"
+    description: "Set a cooling-off period for a purchase and revisit it alongside a short evening review."
 
 # GitHub Pages settings
 baseurl: "/clarityflow-website"

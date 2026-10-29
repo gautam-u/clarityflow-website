@@ -61,8 +61,8 @@ You may not:
 
 Your privacy is fundamental to how we built ClarityFlow. Please review our [Privacy Policy](/clarityflow-website/privacy-policy/) to understand how we protect your information. Key points:
 
-- All decision data stays on your device
-- No personal information is collected or stored on our servers
+- Decision records are stored on your device; exported copies and backups are controlled by their destinations
+- Third-party advertising and purchase services process information as described in the Privacy Policy
 - No account or sign-in is required
 
 ---
@@ -114,7 +114,7 @@ If you have questions about these Terms or need support:
 
 **Email:** [gautam.ux@gmail.com](mailto:gautam.ux@gmail.com)
 
-We typically respond within 24–48 hours.
+
 
 ---
 

@@ -1,22 +1,22 @@
 # Page title
-page_title: ClarityFlow - Decision Tracker & Subscription Manager for iOS
-title: ClarityFlow
+page_title: "ClarityFlow for iPhone"
+title: "ClarityFlow"
 
 # App Info
 app_icon: /assets/app-icon.png
-app_name: ClarityFlow
+app_name: "ClarityFlow"
 app_price: Free
-app_description: Beat impulse buying, track every subscription, and make decisions you won't regret. ClarityFlow gives you a cooling-off timer, subscription tracker, and AI chat import — all private, on your device.
+app_description: "Record expenses, keep subscriptions in view and give a purchase a little time before deciding."
 
 # Store Links
-appstore_link: https://apps.apple.com/us/app/id6759080543
+appstore_link: "https://apps.apple.com/app/id6759080543"
 playstore_link:
 
 # Information About Yourself
 your_name: ClarityFlow
 your_link: https://gautam-u.github.io/clarityflow-website
 your_city:
-email_address: gautam.ux@gmail.com
+email_address: "gautam.ux@gmail.com"
 facebook_username:
 instagram_username:
 twitter_username:

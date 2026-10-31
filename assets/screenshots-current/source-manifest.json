@@ -1,23 +1,28 @@
 {
   "app": "ClarityFlow",
-  "version": "1.0.8",
-  "capturedOrVerified": "2026-10-28",
-  "note": "Screens from the latest tested 1.0.8 release candidate using demonstration or empty records. The current App Store version may differ.",
+  "version": "1.0.9 (51)",
+  "capturedOrVerified": "2026-10-31",
+  "note": "Simulator UI tests use demonstration or empty records; the current App Store version may differ.",
   "files": [
     {
       "file": "01.png",
-      "source": "clarityflow-today.png",
+      "source": "clarity-current-screen.xcresult: testInlineExpenseDoesNotRequireOpeningASheet",
       "label": "Today"
     },
     {
       "file": "02.png",
-      "source": "clarityflow-intelligence-2026-10-26/spending-note.png",
+      "source": "clarityflow-store-shots-current.xcresult: testSpendingNoteReviewsYesterdayBeforeSavingAndRetainsDirectEntry",
       "label": "Review a spending note"
     },
     {
       "file": "03.png",
-      "source": "clarityflow-intelligence-2026-10-26/evening-review.png",
+      "source": "clarityflow-store-shots-current.xcresult: testEveningReviewKeepsRecordedMoneySeparateAndCanAddExpense",
       "label": "Evening review"
+    },
+    {
+      "file": "04.png",
+      "source": "clarityflow-store-subscription-current.xcresult: testCreateSubscriptionAndReviewDoesNotRecordPayment",
+      "label": "Subscriptions"
     }
   ]
 }

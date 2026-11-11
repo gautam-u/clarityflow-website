@@ -112,7 +112,7 @@ These Terms shall be governed by and construed in accordance with the laws of th
 
 If you have questions about these Terms or need support:
 
-**Email:** [gautam.ux@gmail.com](mailto:gautam.ux@gmail.com)
+**Feedback:** [Write an App Store review](https://apps.apple.com/app/id6759080543?action=write-review). Reviews are public.
 
 
 
